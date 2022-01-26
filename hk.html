@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<style>
+.div {
+   width: 500px;
+   height: 300px;
+   resize: both;
+   overflow: auto;
+}
+.twisty-player {
+   width: 100%;
+   height: 100%;
+}
+</style>
+    <meta charset="utf8" />
+    <title>TwistyPlayer</title>
+    <script src="https://cdn.cubing.net/js/cubing/twisty" type="module"></script>
+  </head>
+  <body>
+  <div>
+  <twisty-player
+     visualization="PG3D"
+     experimental-move-press-input="basic"
+     experimental-stickering="picture"
+     experimental-sprite="./G2 reused colors.png"
+   ></twisty-player></div>
+  </body>
+</html>
